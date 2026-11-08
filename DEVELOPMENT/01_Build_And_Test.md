@@ -1,0 +1,8 @@
+# Build & Test — K_MICROPYTHON
+
+```bash
+git clone https://github.com/micropython/micropython
+cd k-micropython
+pip install -e .[dev]
+pytest tests/
+```

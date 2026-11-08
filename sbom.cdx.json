@@ -1,0 +1,46 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:21187517-66e5-5584-85d8-76f8c25894f4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:39:30Z",
+    "component": {
+      "type": "application",
+      "name": "K_MICROPYTHON",
+      "version": "19e685eca906",
+      "bom-ref": "pkg:generic/anticloud/K_MICROPYTHON@19e685eca906",
+      "purl": "pkg:generic/anticloud/K_MICROPYTHON@19e685eca906",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "19e685eca906a5a602135a485976253e705297d0"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/micropython/micropython"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Zephyr",
+      "version": "unspecified",
+      "purl": "pkg:generic/Zephyr",
+      "bom-ref": "native/Zephyr@unspecified"
+    }
+  ]
+}
